@@ -1,0 +1,19 @@
+{
+    "projectType": "application",
+    "root": "e2e/nx-go-e2e",
+    "sourceRoot": "e2e/nx-go-e2e/src",
+    "architect": {
+      "e2e": {
+        "builder": "@nrwl/nx-plugin:e2e",
+        "options": {
+          "target": "nx-go:build",
+          "npmPackageName": "@codeowners-company/nx-go",
+          "pluginOutputPath": "dist/packages/nx-go",
+          "jestConfig": "e2e/nx-go-e2e/jest.config.js",
+          "tsSpecConfig": "e2e/nx-go-e2e/tsconfig.spec.json"
+        }
+      }
+    },
+    "tags": [],
+    "implicitDependencies": ["nx-go"]
+  }

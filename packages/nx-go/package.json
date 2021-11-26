@@ -1,0 +1,12 @@
+{
+  "name": "@codeowners-company/nx-go",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "generators": "./generators.json",
+  "executors": "./executors.json",
+  "homepage": "https://github.com/codeowners-company/nx-go",
+  "bugs": {
+    "url": "https://github.com/codeowners-company/nx-go"
+  },
+  "license": "MIT"
+}
